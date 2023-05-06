@@ -46,7 +46,7 @@ jobs:
           context: .
           push: true
           file: src/main/docker/Dockerfile.native
-          tags: tomcatdz/quarkus-on-render:latest
+          tags: tomcatdz/code-with-quarkus-1:latest
       - name: Deploy
         uses: fjogeleit/http-request-action@v1
         with:
